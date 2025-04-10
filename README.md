@@ -4,7 +4,7 @@
 
 This is my personal portfolio website, built to showcase my academic background, professional experiences, and selected projects. The website is fully responsive and designed to provide an engaging and clean user experience across different devices.
 
----
+
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ This is my personal portfolio website, built to showcase my academic background,
 - **Carousel Component** — Dynamic project or image display for visual engagement.
 - **Clean Layout & Visual Design** — Emphasis on readability and aesthetic presentation.
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -21,15 +21,14 @@ This is my personal portfolio website, built to showcase my academic background,
 - **CSS3** (including Flexbox and custom carousel)
 - **JavaScript** (basic interactivity and navigation)
 
----
+
 
 ## 📸 Preview
 
 ![Portfolio Preview](./img/preview.png)
 
-*(Tip: 上传一张你的网页截图到 img 文件夹，然后把文件名改成 preview.png 就能显示啦！)*
 
----
+
 
 ## 🚀 Deployment
 
