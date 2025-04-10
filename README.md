@@ -12,7 +12,6 @@ This is my personal portfolio website, built to showcase my academic background,
 - **Multi-page Navigation** — Includes About, Education, Experience, Interests, and Contact pages.
 - **Carousel Component** — Dynamic project or image display for visual engagement.
 - **Clean Layout & Visual Design** — Emphasis on readability and aesthetic presentation.
-- **Deployed with GitHub Pages** — Easily accessible online portfolio.
 
 ---
 
@@ -21,8 +20,6 @@ This is my personal portfolio website, built to showcase my academic background,
 - **HTML5**
 - **CSS3** (including Flexbox and custom carousel)
 - **JavaScript** (basic interactivity and navigation)
-- **Git & GitHub** (version control and deployment)
-- **GitHub Pages** (free static site hosting)
 
 ---
 
