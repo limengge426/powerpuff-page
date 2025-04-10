@@ -1,0 +1,41 @@
+body {
+	background-color:#FFFAF0; 
+}
+
+.fw-normal {
+	margin-top: 25px;
+}
+
+.bg-dark {
+	background-color: #4682B4 !important;
+}
+
+.btn-primary {
+	--bs-btn-bg: #B0C4DE !important;
+	--bs-btn-border-color: #F5F5F5 !important;
+	--bs-btn-hover-bg: #4682B4 !important;
+    --bs-btn-hover-border-color: #4682B4 !important;
+｝
+
+.btn-secondary {
+	--bs-btn-bg: rgba(233, 150, 122) !important;
+}
+
+.carousel-item img {
+  	width: 100% !important;
+}
+
+.navbar {
+  	--bs-navbar-padding-x: 0.5 !important;
+	--bs-navbar-padding-y: 1rem !important;
+}
+
+.navbar-brand {
+  font-family: 'Tilt Prism', sans-serif !important;
+  font-size: 2rem !important;
+  color: #ffffff !important;
+}
+
+.lead {
+    font-family: 'Scheherazade New', serif !important;
+}

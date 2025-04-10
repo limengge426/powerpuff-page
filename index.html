@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chloe's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  	<link href="carousel.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fascinate&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sriracha&family=Tilt+Prism&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Fascinate&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sriracha&family=Tilt+Prism&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Fascinate&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sriracha&family=Tilt+Prism&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Fascinate&family=Lexend:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Scheherazade+New:wght@400;500;600;700&family=Sriracha&family=Tilt+Prism&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<style>
+
+		.nav-link {
+        	font-family: 'Caveat Brush', sans-serif !important;
+        	font-size: 1.8rem;
+        	color: #ffffff !important;
+      	}
+
+
+		.nav-link:hover {
+        	text-decoration: underline;
+        	color: #B0C4DE !important;
+      	}
+
+
+		.navbar-brand {
+  			font-family: 'Fascinate', sans-serif !important; 
+  			font-size: 2.5rem; 
+  			color: #ffffff !important;
+		}
+		
+		h1 {
+        	font-family: 'Caveat Brush', sans-serif;
+        	font-size: 4.5rem;
+        	color: #FFFAF0;
+        	text-align: center;
+      	}
+      	
+      	.highlight1 {
+  			color: #B0C4DE;
+  			font-size: 6rem;
+		}
+      	
+      	
+      	h2 {
+        	font-family: 'Bevan', sans-serif;
+        	font-size: 2rem;
+        	color: #4682B4;
+        	text-align: center;
+      	}
+      	
+      	.carousel-item img {
+  			width: 100%;
+			height: 100vh; 
+  			object-fit: cover; 
+		}
+      	
+
+  		.carousel-caption {
+    		bottom: 10rem; 
+    		transform: translateY(-30px); 
+  		}
+
+
+  		.carousel-caption p a {
+    		margin-top: 0.5rem; 
+  		}
+      	
+      	
+		.lead {
+    		font-family: 'Lexend', serif !important;
+    		font-size: 1.1rem;
+		}
+    </style>
+	
+  </head>
+  <body>
+    <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Chloe's Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+	<link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Favicons -->
+	<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+	<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+	<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+	<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+	<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+	<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+		.bd-placeholder-img {
+        	font-size: 1.125rem;
+        	text-anchor: middle;
+        	-webkit-user-select: none;
+        	-moz-user-select: none;
+        	user-select: none;
+		}
+
+		@media (min-width: 768px) {
+        	.bd-placeholder-img-lg {
+          	font-size: 3.5rem;
+        	}
+      	}
+      	
+ 
+  		@media (max-width: 768px) {
+    		.carousel-caption h1 {
+      			font-size: 2.5rem;
+    		}
+    		.carousel-caption p {
+      			font-size: 1rem;
+    		}
+    		.carousel-caption .btn {
+      			font-size: 0.8rem;
+      			padding: 0.4rem 0.8rem; 
+    		}
+    		.highlight1 {
+        		font-size: 2.8rem;
+    		}
+  		}
+  
+  		@media (min-width: 768px) and (max-width: 992px) {
+    		.carousel-caption h1 {
+      			font-size: 3.5rem;
+    		}
+    		.carousel-caption p {
+      			font-size: 1.2rem;
+    		}
+    		.carousel-caption .btn {
+      			font-size: 1rem;
+    		}
+    		.highlight1 {
+        		font-size: 4rem;
+    		}
+  		}
+
+
+  		.carousel-caption {
+    		bottom: 8rem; 
+    		text-align: center;
+  		}
+
+
+
+		.b-example-divider {
+        	width: 100%;
+        	height: 3rem;
+        	background-color: rgba(0, 0, 0, .1);
+        	border: solid rgba(0, 0, 0, .15);
+        	border-width: 1px 0;
+        	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      	}
+
+		.b-example-vr {
+        	flex-shrink: 0;
+        	width: 1.5rem;
+        	height: 100vh;
+      	}
+
+		.bi {
+        	vertical-align: -.125em;
+        	fill: currentColor;
+      	}
+
+		.nav-scroller {
+        	position: relative;
+        	z-index: 2;
+        	height: 2.75rem;
+        	overflow-y: hidden;
+      	}
+
+		.nav-scroller .nav {
+        	display: flex;
+        	flex-wrap: nowrap;
+        	padding-bottom: 1rem;
+        	margin-top: -1px;
+        	overflow-x: auto;
+        	text-align: center;
+        	white-space: nowrap;
+        	-webkit-overflow-scrolling: touch;
+      	}
+
+		.btn-bd-primary {
+        	--bd-violet-bg: #712cf9;
+        	--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        	--bs-btn-font-weight: 600;
+        	--bs-btn-color: var(--bs-white);
+        	--bs-btn-bg: var(--bd-violet-bg);
+        	--bs-btn-border-color: var(--bd-violet-bg);
+        	--bs-btn-hover-color: var(--bs-white);
+        	--bs-btn-hover-bg: #FA8072;
+        	--bs-btn-hover-border-color: #FA8072;
+        	--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        	--bs-btn-active-color: var(--bs-btn-hover-color);
+        	--bs-btn-active-bg: #5a23c8;
+        	--bs-btn-active-border-color: #5a23c8;
+      	}
+      
+		.btn-secondary {
+			--bs-btn-bg: #B0C4DE !important;
+			--bs-btn-border-color: #F5F5F5 !important;
+			--bs-btn-hover-bg: #4682B4 !important;
+    		--bs-btn-hover-border-color: #4682B4 !important;
+		}		
+
+		.bd-mode-toggle {
+        	z-index: 1500;
+      	}
+
+		.bd-mode-toggle .dropdown-menu .active .bi {
+        	display: block !important;
+      	}
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  	</head>
+  
+  	<header>
+  	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    	<div class="container-fluid">
+      	<a class="navbar-brand" href="#">Chloe's Portfolio</a>
+      	<button
+        	class="navbar-toggler"
+        	type="button"
+        	data-bs-toggle="collapse"
+        	data-bs-target="#navbarCollapse"
+        	aria-controls="navbarCollapse"
+        	aria-expanded="false"
+        	aria-label="Toggle navigation"
+      	>
+        	<span class="navbar-toggler-icon"></span>
+      	</button>
+      	<div class="collapse navbar-collapse" id="navbarCollapse">
+        	<ul class="navbar-nav me-auto mb-2 mb-md-0">
+          	<li class="nav-item">
+            	<a class="nav-link active" aria-current="page" href="#">Home</a>
+          	</li>
+          	<li class="nav-item">
+            	<a class="nav-link" href="about.html">About me</a>
+          	</li>
+          	<li class="nav-item">
+            	<a class="nav-link" href="contact.html">Contact</a>
+          	</li>
+          	<li class="nav-item">
+            	<a class="nav-link" href="#">Resume</a>
+          	</li>
+        	</ul>
+      	</div>
+    	</div>
+  	</nav>
+	</header>
+  
+  <main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="img/sky.png">
+        <div class="container">
+          <div class="carousel-caption text-start">
+          	<h1>Wanna go through my <span class="highlight1">Resume</span>?</h1>
+            <p class="opacity-75">Have a quick view of my academic background, skills, and experiences.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Take a look</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="img/cloud.png">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Welcome to <span class="highlight1">Chloe's</span> Website!</h1>
+            <p class="opacity-75">Welcome to my little corner of the internet. Let's dive in and explore together!</p>
+            <p><a class="btn btn-lg btn-primary" href="about.html">About me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/door.png">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Let's <span class="highlight1">get in touch!</span></h1>
+            <p class="opacity-75">Want to connect or ask me something? Let’s chat!</p>
+            <p><a class="btn btn-lg btn-primary" href="contact.html">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        
+        <h2 class="fw-normal">Education</h2>
+        <p>My academic journey has been one of exploration and growth, filled with challenges and achievements. Here, I share my educational background, highlighting the knowledge and skills gained through years of dedicated learning.</p>
+        <p><a class="btn btn-secondary" href="education.html">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        
+        <h2 class="fw-normal">Experience</h2>
+        <p>My internship experiences have been pivotal in shaping my professional skills. From working with dynamic teams to contributing to impactful projects, these opportunities have prepared me to excel in real-world challenges.</p>
+        <p><a class="btn btn-secondary" href="experience.html">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        
+        <h2 class="fw-normal">Interests</h2>
+        <p>Beyond academics and work, my personal interests keep me inspired and creative. Whether it’s exploring hobbies, learning new skills, or diving into technology and design, these passions reflect who I am and how I grow.</p>
+        <p><a class="btn btn-secondary" href="interests.html">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Key Skills <span class="text-body-secondary">and Expertise</span></h2>
+        <p class="lead">
+  			  Skilled in <strong>C/C++</strong>, <strong>Python</strong>, and <strong>R</strong> for programming and data analysis. Experienced in managing databases with <strong>MySQL</strong>, developing modern web designs with <strong>HTML</strong> and <strong>CSS</strong>, and designing visuals using <strong>Photoshop</strong>.
+		</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/skills.png" class="featurette-image img-fluid mx-auto" width="500" height="500" alt="Skills Image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Projects <span class="text-body-secondary">I’m working on</span></h2>
+        <p class="lead">
+    		Currently developing a small website that explores thought experiments in philosophy. 
+    		The project aims to present classic philosophical scenarios in an interactive way, 
+    		allowing users to engage with and reflect on complex ideas in an intuitive format.
+		</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/website.png" class="featurette-image img-fluid mx-auto" width="500" height="500" alt="Skills Image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1"><span class="text-body-secondary">My Vision for the </span>Future</h2>
+        <p class="lead">
+    		Looking ahead, I am focused on pursuing a master's degree in either Public Policy or Computer Science, fields where I can blend technical skills with impactful decision-making. In the meantime, I am actively seeking internships in international organizations or nonprofits to contribute to meaningful projects and further develop my expertise.
+		</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/fly.png" class="featurette-image img-fluid mx-auto" width="500" height="500" alt="Skills Image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2017–2024 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+</main>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
